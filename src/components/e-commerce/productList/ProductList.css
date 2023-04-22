@@ -1,6 +1,10 @@
 .productList {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    display: flex;
+    flex-wrap: wrap;
     gap: 8px;
     padding: 20px;
+    background-color: white;
+    margin-top: -10px;
 }
