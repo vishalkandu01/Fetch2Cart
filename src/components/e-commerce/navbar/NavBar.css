@@ -4,7 +4,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 2px gainsboro;
+    box-shadow: 5px 5px 5px rgb(66, 157, 157);
     position: relative;
     width: 100%;
 }
@@ -15,6 +15,14 @@ h1 {
 
 .banner {
     color: white;
+}
+
+.left-layout {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-size: 3rem;
 }
 
 .cart-layout {
