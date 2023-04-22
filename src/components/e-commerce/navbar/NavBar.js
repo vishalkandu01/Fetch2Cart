@@ -1,5 +1,6 @@
 import React from 'react'
 import { AiOutlineShoppingCart } from 'react-icons/ai';
+import { BiStore } from 'react-icons/bi';
 import { useSelector } from 'react-redux';
 import './NavBar.css';
 
@@ -11,11 +12,14 @@ function NavBar() {
 
     return (
         <nav>
-            <h1 className='banner'>My Store</h1>
+            <div className='left-layout'>
+                <BiStore />
+                <h1 className='banner'> VishalKandu's Store</h1>
+            </div>
             <div className="right-layout">
                 <div className="cart-layout">
                     <AiOutlineShoppingCart />
-                    <h3>{count}</h3>
+                    <h4>{count}</h4>
                 </div>
             </div>
         </nav>
