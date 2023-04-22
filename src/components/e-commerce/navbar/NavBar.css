@@ -5,6 +5,12 @@ nav {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 2px gainsboro;
+    position: relative;
+    width: 100%;
+}
+
+h1 {
+    font-size: 33px;
 }
 
 .banner {
