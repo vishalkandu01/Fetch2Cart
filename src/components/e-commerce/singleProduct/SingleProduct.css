@@ -1,6 +1,17 @@
 .SingleProduct {
     border: 2px solid #ccc;
     border-radius: 8px;
+    background-color: #739393;
+    color: white;
+    margin-top: 2px;
+}
+
+.imgDiv {
+    width: 360px;
+    height: 360px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 8px;
 }
 
 .productImg {
@@ -8,7 +19,7 @@
 }
 
 .productInfo {
-    padding: 20px;
+    padding: 3px;
 }
 
 .cartInfo {
@@ -23,8 +34,8 @@
     padding: 20px;
     width:20px;
     height: 20px;
-    border-radius: 50%;
-    background-color: teal;
+    border-radius: 30%;
+    background-color: darkcyan;
     color: white;
     cursor: pointer;
     display: flex;
